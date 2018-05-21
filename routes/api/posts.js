@@ -103,7 +103,7 @@ router.post(
           ) {
             return res
               .status(400)
-              .json({ alreadylike: "User already liked tis post" });
+              .json({ alreadylike: "User already liked this post" });
           }
 
           // Add user id to likes array
